@@ -1,20 +1,20 @@
 import random
 
-MAX_LINES = 3
-MAX_BET = 100
-MIN_BET = 1
+MAX_LINEAS = 3
+APUESTA_MAX = 100
+APUETSA_MIN = 1
 
-ROWS = 3
+FILAS = 3
 COLS = 3
 
-symbol_count = {
+cuenta_simbols = {
     "A": 2,
     "B": 4,
     "C": 6,
     "D": 8
 }
 
-symbol_value = {
+valor_simbols = {
     "A": 5,
     "B": 4,
     "C": 3,
@@ -22,23 +22,23 @@ symbol_value = {
 }
 
 
-def check_winnings(columns, lines, bet, values):
-    winnings = 0
-    winning_lines = []
-    for line in range(lines):
-        symbol = columns[0][line]
-        for column in columns:
-            symbol_to_check = column[line]
+def check_ganadas(columnas, lineas, bet, values):
+    ganadas = 0
+    lineas_ganadas = []
+    for linea in range(lineas):
+        symbol = columnas[0][linea]
+        for column in columnas:
+            symbol_to_check = column[linea]
             if symbol != symbol_to_check:
                 break
         else:
-            winnings += values[symbol] * bet
-            winning_lines.append(line + 1)
+            ganadas += values[symbol] * bet
+            lineas_ganadas.append(linea + 1)
 
-    return winnings, winning_lines
+    return ganadas, lineas_ganadas
 
 
-def get_slot_machine_spin(rows, cols, symbols):
+def get_maquina(fila, cols, symbols):
     all_symbols = []
     for symbol, symbol_count in symbols.items():
         for _ in range(symbol_count):
@@ -48,7 +48,7 @@ def get_slot_machine_spin(rows, cols, symbols):
     for _ in range(cols):
         column = []
         current_symbols = all_symbols[:]
-        for _ in range(rows):
+        for _ in range(fila):
             value = random.choice(current_symbols)
             current_symbols.remove(value)
             column.append(value)
@@ -58,7 +58,7 @@ def get_slot_machine_spin(rows, cols, symbols):
     return columns
 
 
-def print_slot_machine(columns):
+def print_maquina(columns):
     for row in range(len(columns[0])):
         for i, column in enumerate(columns):
             if i != len(columns) - 1:
@@ -84,13 +84,13 @@ def deposit():
     return amount
 
 
-def get_number_of_lines():
+def get_lineas():
     while True:
         lines = input(
-            "Ingrese su cant de apuestas (1-" + str(MAX_LINES) + ")? ")
+            "Ingrese su cant de apuestas (1-" + str(MAX_LINEAS) + ")? ")
         if lines.isdigit():
             lines = int(lines)
-            if 1 <= lines <= MAX_LINES:
+            if 1 <= lines <= MAX_LINEAS:
                 break
             else:
                 print("Ingrese una cantidad válida.")
@@ -105,10 +105,10 @@ def get_bet():
         amount = input("Cuanto quiere apostar en cada linea? $")
         if amount.isdigit():
             amount = int(amount)
-            if MIN_BET <= amount <= MAX_BET:
+            if APUETSA_MIN <= amount <= APUESTA_MAX:
                 break
             else:
-                print(f"La cantidad debe de ser entre ${MIN_BET} - ${MAX_BET}.")
+                print(f"La cantidad debe de ser entre ${APUETSA_MIN} - ${APUESTA_MAX}.")
         else:
             print("Porfavor ingrese un número.")
 
@@ -116,7 +116,7 @@ def get_bet():
 
 
 def spin(balance):
-    lines = get_number_of_lines()
+    lines = get_lineas()
     while True:
         bet = get_bet()
         total_bet = bet * lines
@@ -130,9 +130,9 @@ def spin(balance):
     print(
         f"Estas apostando ${bet} en {lines} lineas. La apuesta total es de: ${total_bet}")
 
-    slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
-    print_slot_machine(slots)
-    winnings, winning_lines = check_winnings(slots, lines, bet, symbol_value)
+    slots = get_maquina(FILAS, COLS, cuenta_simbols)
+    print_maquina(slots)
+    winnings, winning_lines = check_ganadas(slots, lines, bet, valor_simbols)
     print(f"Ganaste ${winnings}.")
     print(f"Total lineas ganadas:", *winning_lines)
     return winnings - total_bet
