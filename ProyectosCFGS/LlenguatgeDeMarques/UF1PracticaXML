@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--  Practica hecha por: Camilo Jumelle y Manuel Ordoñez  -->
+<jocsOlimpics id = "Tokio 2020"> <!--La id es un atributo, ya que todos los juegos deben de tener un identificador.-->
+  <pais>Japon</pais>
+  <edicion>32ava de las Olimpiadas Modernas</edicion>
+  <web>https://olympics.com/es/</web>
+  <participantes>
+    <paises>205</paises>
+    <deportistas>11.326</deportistas>
+  </participantes>
+  <dias>
+    <apertura>23/07/2021</apertura>
+    <clausura>08/08/2021</clausura>
+  </dias>
+  <sedesNoCompeticions>
+  <ceremonia_apertura>
+    <nombre>Estadio Olimpico</nombre>
+    <ciudad>Tokio</ciudad>
+    <edificio>Estadio</edificio>
+    <funcionalidad>Se utilizo en las ceremonias de apertura y clausuras</funcionalidad>
+  </ceremonia_apertura>
+  <sedeCOI>
+    <nombre>Hotel Imperial</nombre>
+    <ciudad>Tokio</ciudad>
+    <edificio>Hotel</edificio>
+    <funcionalidad>Es uno de los principales hoteles de lujo de Japon</funcionalidad>
+  </sedeCOI>
+  <villaOlimpica>
+    <nombre>Villa Olimpica</nombre>
+    <ciudad>Tokio</ciudad>
+    <edificio>Varios edificios como apartamentos</edificio>
+    <funcionalidad>Para que los atletas puedan instalarse, vivir, alimentarse y entrenar.</funcionalidad>
+  </villaOlimpica>
+  <centros>
+    <nombre>Tokyo Big Sight</nombre>
+    <ciudad>Tokio</ciudad>
+    <edificio>Torre de conferencias</edificio>
+    <funcionalidad>Se utilizo como centro de medios y centro internacional de prensa</funcionalidad>
+  </centros>
+  </sedesNoCompeticions>
+  <sedesCompeticions>
+  <sedeDeporte>
+  <sedeDeporte>
+     <sedeDeporte>
+    <nombre>Gimnasio Metropolitano de Tokio</nombre>   
+      <ciudad>Tokyo</ciudad> 
+      <capacidad>10000</capacidad>
+      <deporte nom = "Tenis Mesa"><!--El nombre del deporte es un atributo, porque todos los deportes han de tener un nombre. -->
+       <primerCop>1988</primerCop>
+       <diaCompeticions>
+          <inici>24/07/2021</inici>
+         <fin>06/08/2021</fin>
+       </diaCompeticions>
+       <categorias>
+        <IndividualMasculino>
+	        <medalles>
+          <or>
+            <pais>Reublica de China</pais>
+            <atleta>Long Ma</atleta>
+            <dia>30/07/2021</dia>
+            <hora>14:00</hora>
+            <lloc>Pabellon</lloc>
+          </or>
+          <plata> 
+          <pais>Republica de China</pais>
+          <atleta>Zhengdong Fan</atleta>
+          <dia>30/07/2021</dia>       
+          <hora>14:00</hora>   
+          <lloc>Pabellon</lloc>
+          </plata>
+          <bronze>
+          <pais>Alemania</pais>
+          <atleta>Dimitrij Ovtcharov</atleta>
+          <dia>30/07/2021</dia>       
+          <hora>14:00</hora>   
+          <lloc>Pabellon</lloc>
+          </bronze>
+          </medalles>
+	      </IndividualMasculino>
+	      <EquipoMasculino>
+	      <DoblesMixto>
+        <IndividualFemenino>
+        <EquipoFemenino>
+	        <medalles>
+          <or>
+            <pais> República Popular China </pais>
+            <atleta>Equipo</atleta>
+            <dia>29/07/2021</dia>
+            <hora>12:30</hora>
+            <lloc>Pabellon</lloc>
+          </or>
+          <plata> 
+            <pais> Japón </pais>
+            <atleta>Equipo</atleta>
+            <dia>29/07/2021</dia>       
+            <hora>12:30</hora>   
+            <lloc>Pabellon</lloc>
+          </plata>
+          <bronze>
+            <pais>Hong Kong </pais>
+            <atleta>Equipo</atleta>
+            <dia>29/07/2021</dia>       
+            <hora>12:30</hora>   
+            <lloc>Pabellon</lloc>
+          </bronze>
+          </medalles>
+	      </EquipoFemenino>
+          <medalles>
+            <or>
+            <pais>República Popular China</pais>
+            <atleta> Chen Meng</atleta>
+            <dia>29/07/2021</dia>
+            <hora>14:00</hora>
+            <lloc>Pabellon</lloc>
+          </or>
+            <plata> 
+            <pais>República Popular China</pais>
+            <atleta>Sun Yingsha</atleta>
+            <dia>29/07/2021</dia>       
+            <hora>14:00</hora>   
+            <lloc>Pabellon</lloc>
+          </plata>
+            <bronze>
+            <pais>Japón</pais>
+            <atleta> Mima Ito </atleta>
+            <dia>29/07/2021</dia>       
+            <hora>14:00</hora>   
+            <lloc>Pabellon</lloc>
+          </bronze>
+          </medalles>
+	      </IndividualFemenino>
+         <medalles>
+            <or>
+              <pais>Japón</pais>
+              <atleta>Jun Mizutani y  Mima Ito</atleta>
+              <dia>26/07/2021</dia>
+              <hora>14:00</hora>
+              <lloc>Pabellon</lloc>
+          </or>
+            <plata> 
+          <pais>República Popular China</pais>
+          <atleta>Xu Xin y Liu Shiwen</atleta>
+          <dia>26/07/2021</dia>       
+          <hora>14:00</hora>   
+          <lloc>Pabellon</lloc>
+          </plata>
+            <bronze>
+          <pais>China Taipéi</pais>
+          <atleta>Cheng I-Ching y Lin Yun-Ju</atleta>
+          <dia>26/07/2021</dia>       
+          <hora>14:00</hora>   
+          <lloc>Pabellon</lloc>
+          </bronze>
+          </medalles>
+	      </DoblesMixto>
+	      <medalles>
+          <or>
+            <pais>Republica de China</pais>
+            <atleta>Equipo</atleta>
+            <dia>06/08/2021</dia>
+            <hora>12:30</hora>
+            <lloc>Pabellon</lloc>
+          </or>
+          <plata> 
+          <pais>Alemania</pais>
+          <atleta>Equipo</atleta>
+          <dia>06/08/2021</dia>       
+          <hora>12:30</hora>   
+          <lloc>Pabellon</lloc>
+          </plata>
+          <bronze>
+          <pais>Japon</pais>
+          <atleta>Equipo</atleta>
+          <dia>06/08/2021</dia>       
+          <hora>12:30</hora>   
+          <lloc>Pabellon</lloc>
+          </bronze>
+          </medalles>
+	      </EquipoMasculino>
+       </categorias>
+      </deporte>
+    </sedeDeporte>
+     <nombre>Saitama Super Arena</nombre>   
+      <ciudad>Tokio</ciudad> 
+      <capacidad>37.000</capacidad>
+      <deporte nom = "Basquetball">
+       <primerCop>Masculino 1936 y Femenino 1976</primerCop>
+       <diaCompeticions>
+          <inici>24/07/2021</inici>
+          <fin>08/08/2021</fin>
+       </diaCompeticions>
+       <categorias >
+            <baloncestomasculino>
+                <medalles>
+                    <or>
+                      <pais>Estados Unidos</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>07/08/2021</dia>
+                      <hora>11:30</hora>
+                      <lloc>Pabellon</lloc>
+                    </or>
+                    <plata>
+                      <pais>Francia</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>07/08/2021</dia>       
+                      <hora>11:30</hora>   
+                      <lloc>Pabellon</lloc>
+                    </plata>
+                    <bronze>
+                      <pais>Australia</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>07/08/2021</dia>       
+                      <hora></hora>   
+                      <lloc>Pabellon</lloc>
+                    </bronze>
+                </medalles>
+            </baloncestomasculino>
+            <baloncestofemenino>
+                <medalles>
+                    <or>
+                      <pais>Estados Unidos</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>08/08/2021</dia>
+                      <hora>11.30</hora>
+                      <lloc>Pabellon</lloc>
+                    </or>
+                    <plata>
+                      <pais>Japon</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>08/08/2021</dia>       
+                      <hora>11.30</hora>   
+                      <lloc>Pabellon</lloc>
+                    </plata>
+                    <bronze>
+                      <pais>Francia</pais>
+                      <atleta>Equipo</atleta>
+                      <dia>07/08/2021</dia>       
+                      <hora></hora>   
+                      <lloc>Pabellon</lloc>
+                    </bronze>
+                </medalles>
+            </baloncestofemenino>
+       </categorias>
+      </deporte>
+</sedeDeporte>
+      <nombre>Plaza Deportiva Musashino Forest</nombre>   
+      <ciudad>Tokio</ciudad> 
+      <capacidad>10.000</capacidad>
+      <deporte nom = "Bádminton"> 
+       <primerCop>1875</primerCop>
+       <diaCompeticions>
+          <inici>24/07/2021</inici>
+         <fin>02/08/2021</fin>
+       </diaCompeticions>
+       <categorias>
+       <IndividualMasculino>
+        <sexe>Hombres</sexe>
+         <medalles>
+            <or>
+            <pais>Dinamarca</pais>
+            <atleta>Viktor Axelsen</atleta>
+            <dia>02/08/2021</dia>
+            <hora>13:50</hora>
+            <lloc>Pista</lloc>
+          </or>
+            <plata>
+          <pais>Republica de China</pais>
+          <atleta>Long Chen</atleta>
+          <dia>02/08/2021</dia>       
+          <hora>13:50</hora>   
+          <lloc>Pista</lloc>
+          </plata>
+            <bronze>
+          <pais>Indonesia</pais>
+          <atleta>Anthony Sinisuka Ginting</atleta>
+          <dia>02/08/2021</dia>       
+          <hora>13:00</hora>   
+          <lloc>Pista</lloc>
+          </bronze>
+          </medalles>
+       </IndividualMasculino>
+        <DoblesMasculinos>
+        <sexe>Hombres</sexe>
+         <medalles>
+          <or>
+            <pais>Taiwan</pais>
+            <atleta>Yang Lee / Chi-Li Wang</atleta>
+            <dia>01/07/2021</dia>
+            <hora>14:20</hora>
+            <lloc>Pista</lloc>
+          </or>
+          <plata>
+          <pais>Republica de China</pais> 
+          <atleta>Jun Hui Li / Yu Chen Liu</atleta>
+          <dia>01/07/2021</dia>       
+          <hora>14:20</hora>   
+          <lloc>Pista</lloc>
+          </plata>
+          <bronze>
+          <pais>Malasia</pais>
+          <atleta>Aaron Chia / Wooi Yik Soh</atleta>
+          <dia>31/07/2021</dia>       
+          <hora>12:40</hora>   
+          <lloc>Pista</lloc>
+          </bronze>
+          </medalles>
+       </DoblesMasculinos>
+       <IndividualFemenino>
+        <sexe>Mujeres</sexe>
+         <medalles>
+          <or>
+            <pais>Republica de China</pais>
+            <atleta>Yu Fei Chen</atleta>
+            <dia>01/08/2021</dia>
+            <hora>14:20</hora>
+            <lloc>Pista</lloc>
+          </or>
+          <plata> 
+          <pais>Taiwan</pais>
+          <atleta>Tzu Ying Tai</atleta>
+          <dia>01/08/2021</dia>       
+          <hora>14:20</hora>   
+          <lloc>Pista</lloc>
+          </plata>
+          <bronze>
+          <pais>India</pais>
+          <atleta>Pusarla Venkata Sindhu</atleta>
+          <dia>01/08/2021</dia>       
+          <hora>13:30</hora>   
+          <lloc>Pista</lloc>
+          </bronze>
+          </medalles>
+       </IndividualFemenino>
+       <DoblesFemeninos>
+       <sexe></sexe>
+         <medalles>
+          <or>
+            <pais>Indonesia</pais>
+            <atleta>Greysa Polii / Apriyani Rahayu</atleta>
+            <dia>02/08/2021</dia>
+            <hora>06:00</hora>
+            <lloc>Pista</lloc>
+          </or>
+          <plata> 
+          <pais>Republica de China</pais>
+          <atleta>Chen Qingchen / Jia Yifan</atleta>
+          <dia>02/08/2021</dia>       
+          <hora>06:00</hora>   
+          <lloc>Pista</lloc>
+          </plata>
+          <bronze>
+          <pais>Corea del Sur</pais>
+          <atleta>Kim So yeong / Kong Hee yong</atleta>
+          <dia>02/08/2021</dia>       
+          <hora>06:50</hora>   
+          <lloc>Pista</lloc>
+          </bronze>
+          </medalles>
+       </DoblesFemeninos>
+       <DoblesMixtos>
+        <sexe></sexe>
+         <medalles>
+          <or>
+            <pais>Republica de China</pais>
+            <atleta>Wang Yilyu / Huang DongPing</atleta>
+            <dia>30/07/2021</dia>
+            <hora>10:00</hora>
+            <lloc>Pista</lloc>
+          </or>
+          <plata> 
+          <pais>Republica de China</pais>
+          <atleta>Zheng Siwei / Huang Yaqiong</atleta>
+          <dia>30/07/2021</dia>       
+          <hora>10:00</hora>   
+          <lloc>Pista</lloc>
+          </plata>
+          <bronze>
+          <pais>Japon</pais>
+          <atleta>Yuta Watanabe / Arisa Higashino</atleta>
+          <dia>30/07/2021</dia>       
+          <hora>08:30</hora>   
+          <lloc>Pista</lloc>
+          </bronze>
+          </medalles>
+       </DoblesMixtos>
+       </categorias>
+      </deporte>
+    </sedeDeporte>
+
+  </sedesCompeticions>
+  </jocsOlimpics>

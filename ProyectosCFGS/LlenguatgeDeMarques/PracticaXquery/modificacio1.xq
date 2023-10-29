@@ -1,0 +1,1 @@
+replace node doc("parc.xml")/parc/dates/dataTancament with <dataTancament>01/03/2022</dataTancament>

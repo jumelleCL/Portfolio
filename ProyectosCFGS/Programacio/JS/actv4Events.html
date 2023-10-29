@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La fruiteria: </title>
+    <link rel="stylesheet" href="actv4Events.css">
+</head>
+
+<body>
+    <h1>El tiquet de la fruiteria:</h1>
+    <form action="/nowhere">
+        <label for="item">Escolliu un producte:</label>
+        <select id="productes" name="productes">
+            <option value="">--seleccioneu un producte--</option>
+        </select>
+        <label for="item">Escolliu una quantitat:</label>
+        <input type="number" id="qty" name="qty" min="1" max="100">
+        <button>Afegir Producte</button>
+    </form>
+    <div class="tiquet">
+        <h3>Tiquet: </h3>
+        <h4 class="dataTiquet"></h4>
+        <ul id="list"></ul>
+        <h3 class="totalTiquet">Total:</h3>
+    </div>
+    <script src="actv4Events.js"></script>
+</body>
+
+</html>

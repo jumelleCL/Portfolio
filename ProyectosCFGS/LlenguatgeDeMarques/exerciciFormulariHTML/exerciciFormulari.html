@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exerciciFormulari.css">
+</head>
+<h1>Formulari: </h1>
+<h2>Dades d'usuari</h2>
+<div id="formulari">
+    <div id="usuariAdd">
+    <form id="dadesUsuari">
+        <label for="usuari">Usuari: </label>
+        <input type="text" id="usuari" name="usuari">
+        
+        <label for="contrasenya">Contrasenya:</label>
+        <input type="password" id="contrasenya" name="contrasenya">
+        
+        <label for="repPass">Repeat password:</label>
+        <input type="password" id="repPass" name="repPass">
+        
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail">
+
+        <label for="repMail">Repeteix email:</label>
+        <input type="email" id="repMail" name="repMail">
+        
+        <label for="mobil">Telèfon mòbil:</label>
+        <input type="tel" id="mobil" name="mobil">
+        
+        <label for="data">Data de Naixement:</label>
+        <input type="date" id="data" name="data">
+    </form>
+    <form name="sexe">
+        <h2>Sexe</h2>
+        <input type="radio" id="home" name="sexe" value="home">
+        <label for="home">Home</label><br>
+
+        <input type="radio" name="sexe" id="dona">
+        <label for="dona">Dona</label><br>
+
+        <input type="radio" name="sexe" id="indeterminat">
+        <label for="indeterminat">No determinat</label><br>
+
+        <input type="radio" name="sexe" id="nobinari">
+        <label for="nobinari">No binari</label><br>
+
+        <input type="radio" name="sexe" id="gay">
+        <label for="gay">Gay</label><br>
+
+        <input type="radio" name="sexe" id="lesbiana">
+        <label for="lesbiana">Lesbiana</label><br>
+
+
+    </form>
+    <form id="interessos">
+        <h2>Interessos</h2>
+        <input type="checkbox" name="interessos" id="videojocs">
+        <label for="videojocs">Videojocs</label><br>
+
+        <input type="checkbox" name="interessos" id="esports">
+        <label for="esports">Esports</label><br>
+
+        <input type="checkbox" name="interessos" id="llegir">
+        <label for="llegir">Llegir</label><br>
+
+        <input type="checkbox" name="interessos" id="cine">
+        <label for="cine">Veure pellicules</label><br>
+
+        <input type="checkbox" name="interessos" id="dibuixar">
+        <label for="dibuixar">Dibuixar</label><br>
+
+        
+        <button class="nouUsuari">Nou usuari</button>
+    </form>
+    </div>
+    <div id="adrecaAdd">
+    <form id="dadesAdreca">
+        <h2>Dades d'adreça</h2>
+        <label for="tipusVia">Tipus Via:</label>
+        <select name="tipusVia" id="tipusVia">
+            <option value="avin">Avinguda</option>
+            <option value="car">Carrer</option>
+        </select>
+        <label for="linea1">Línia adreça 1:</label>
+        <input type="text" name="linia1" id="linia1">
+        <label for="linia2">Línia adreça 2:</label>
+        <input type="text" name="linia2" id="linia2">
+        <label for="codi">Codi Postal:</label>
+        <input type="number" name="codi" id="codi">
+        <label for="ciutat">Ciutat:</label>
+        <input type="text" name="ciutat" id="ciutat">
+        <label for="prov">Provincia:</label>
+        <input type="text" name="prov" id="prov">
+        <label for="num">Número:</label>
+        <input type="number" name="num" id="num">
+        <label for="pis">Pis:</label>
+        <input type="text" name="pis" id="pis">
+        <label for="porta">Porta:</label>
+        <input type="text" name="porta" id="porta">
+        <button class="nouAdreca">+</button>
+    </form>
+    <p>Adreça 1</p>
+    <button class="eliminarAdreca">-</button>
+    </div>
+</div>
+</body>
+
+</html>

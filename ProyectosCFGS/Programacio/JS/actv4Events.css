@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: auto;
+    border-radius: 4px;
+}
+
+select {
+    width: auto;
+    border-radius: 4px;
+}
+
+.colorTitol {
+    color: rgb(6, 6, 253);
+}
+
+.tiquet {
+    background-color: rgb(248, 251, 223);
+    border: 1px solid black;
+    text-align: left;
+    font-size: 16px;
+    height: fit-content;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    width: 400px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.dataTiquet {
+    text-align: right;
+}
+
+.totalTiquet {
+    text-align: right;
+}
