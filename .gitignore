@@ -132,3 +132,9 @@ dist
 #Archivos package json
 /ProyectosPersonales/NodeJS/bot/package.json
 /ProyectosPersonales/NodeJS/bot/package-lock.json
+
+#carpeta con practicas en desarollo 
+code/
+
+#carpeta del vsc
+.vscode
